@@ -2,6 +2,8 @@
 
 [Tutorial](https://javascript.plainenglish.io/create-an-rss-reader-with-react-and-javascript-6864b1c410cf)
 
+# Debugging
+
 VSC Debugger configurations (.vscode/launch.json)
 
 ```json
@@ -18,6 +20,16 @@ VSC Debugger configurations (.vscode/launch.json)
   ]
 }
 ```
+
+Then run in the terminal `npm start`
+
+and then run the Debugger in VSC
+
+You should be able to land in your breakpoints now
+
+For debugging/testing purposes you can try the following RSS URLs:
+
+- https://rss.art19.com/apology-line
 
 # Getting Started with Create React App
 
