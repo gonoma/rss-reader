@@ -1,3 +1,24 @@
+# Tutorial on RSS READER
+
+[Tutorial](https://javascript.plainenglish.io/create-an-rss-reader-with-react-and-javascript-6864b1c410cf)
+
+VSC Debugger configurations (.vscode/launch.json)
+
+```json
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Chrome",
+      "type": "chrome",
+      "request": "launch",
+      "url": "http://localhost:3000",
+      "webRoot": "${workspaceRoot}/src"
+    }
+  ]
+}
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
