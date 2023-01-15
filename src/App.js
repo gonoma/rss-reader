@@ -10,8 +10,8 @@ export default function App() {
     if (!urlRegex.test(rssUrl)) {
       return;
     }
-    // const res = await fetch(`https://api.allorigins.win/get?url=${rssUrl}`);
-    const res = await fetch(rssUrl);
+    const res = await fetch(`https://api.allorigins.win/get?url=${rssUrl}`);
+    // const res = await fetch(rssUrl);
     const { contents } = await res.json();
     const feed = new window.DOMParser().parseFromString(contents, "text/xml");
     const items = feed.querySelectorAll("item");
